@@ -5,16 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
     <title>Tailwind with CLI</title>
-    
+
     <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/06ef4612a7.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/06ef4612a7.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class="mt-10 text-blue-800 text-9xl">ami vlo chele</h1>
+    <main class="max-w-5xl mx-auto px-16">
+      <!-- header section -->
+
+      <header class="flex justify-items-center justify-center mt-5">
+        <!-- text div -->
+        <div class="flex-1">
+          <h1 class="text-5xl md:text-7xl">
+            It's good<br />tea time at The <br />Tea House
+          </h1>
+          <br />
+          <p class="text-gray-500 w-3/4">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <br />
+          <button
+            class="bg-linear-to-r from-orange-500 to-red-500 px-3 py-2 rounded-lg text-white font-bold"
+          >
+            Explore more <i class="fa-solid fa-arrow-right -rotate-45"></i>
+          </button>
+        </div>
+
+
+        <!-- image div -->
+
+        <div class="flex-1 relative">
+          <!-- img -->
+          <div>
+            <img src="./images/banner.png" alt="">
+          </div>
+          <!-- sticker -->
+          <div class="flex items-center bg-white shadow-lg max-w-48 rounded-lg px-3 py-3 absolute top-64 left-10" >
+            <div><i class="fa-solid fa-star text-amber-500 text-2xl"></i></div>
+            <div class="w-full">
+              <h2 class="font-bold">5.00</h2>
+              <p class="text-gray-500 ">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </header>
+    </main>
   </body>
 </html>
